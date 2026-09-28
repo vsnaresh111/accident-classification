@@ -1,0 +1,39 @@
+6.6s 1 0.01s - Debugger warning: It seems that frozen modules are being used, which may
+6.6s 2 0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+6.6s 3 0.00s - to python to disable frozen modules.
+6.6s 4 0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+7.1s 5 0.00s - Debugger warning: It seems that frozen modules are being used, which may
+7.1s 6 0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+7.1s 7 0.00s - to python to disable frozen modules.
+7.1s 8 0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+13.2s 9 [?25l   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/104.7 kB[0m [31m?[0m eta [36m-:--:--[0m[2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m104.7/104.7 kB[0m [31m3.9 MB/s[0m eta [36m0:00:00[0m
+81.1s 10 [?25hSetup completed successfully. Working directory: /kaggle/working
+131.3s 11 Credentials loaded: {'GOOGLE_MAPS_API_KEY': False, 'TWILIO_ACCOUNT_SID': False, 'TWILIO_AUTH_TOKEN': False, 'TWILIO_PHONE_NUMBER': False, 'EMERGENCY_PHONE_NUMBER': False}
+131.3s 12 Writing run_system.py
+131.3s 13 Writing leakage_diagnostic_pipeline.py
+131.3s 14 Writing run_paper.py
+131.3s 15 Writing full_reproduction_pipeline.py
+133.3s 16 Traceback (most recent call last):
+133.3s 17 File "/kaggle/working/run_paper.py", line 17, in <module>
+133.3s 18 from rsr import config as C
+133.3s 19 ModuleNotFoundError: No module named 'rsr'
+135.0s 20 Traceback (most recent call last):
+135.0s 21 File "/kaggle/working/leakage_diagnostic_pipeline.py", line 14, in <module>
+135.0s 22 from rsr import config as C
+135.0s 23 ModuleNotFoundError: No module named 'rsr'
+136.4s 24 Traceback (most recent call last):
+136.4s 25 File "/kaggle/working/run_paper.py", line 17, in <module>
+136.4s 26 from rsr import config as C
+136.4s 27 ModuleNotFoundError: No module named 'rsr'
+137.8s 28 Traceback (most recent call last):
+137.8s 29 File "/kaggle/working/leakage_diagnostic_pipeline.py", line 14, in <module>
+137.8s 30 from rsr import config as C
+137.8s 31 ModuleNotFoundError: No module named 'rsr'
+140.5s 32 /usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\|'
+140.5s 33 cells[i][c] = re.sub('\\\\\|', '|', cell)
+140.6s 34 /usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\_'
+140.6s 35 text = re.sub(r'_', '\_', text) # Escape underscores in display text
+141.2s 36 [NbConvertApp] Converting notebook __notebook__.ipynb to notebook
+141.5s 37 [NbConvertApp] Writing 32559 bytes to __notebook__.ipynb
+143.8s 38 [NbConvertApp] Converting notebook __notebook__.ipynb to html
+144.6s 39 [NbConvertApp] Writing 383862 bytes to __results__.html
